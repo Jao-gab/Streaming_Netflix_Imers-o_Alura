@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="theme-toggle" aria-label="Alternar modo claro/escuro">
+        <span class="toggle-slider"></span>
+    </button>
+    <main>
+        <header>
+            <h1>Quem está assistindo?</h1>
+        </header>
+        <!-- Área de navegação para seleção de perfis -->
+        <nav aria-label="Seleção de perfis">
+            <!-- Lista de perfis, com itens de lista <li> -->
+            <ul class="profiles">
+                <!-- Perfil 1 -->
+                <li>
+                    <a class="profile" href="catalogo/catalogo.html?name=Jo%C3%A3o%20G&avatar=/assets/perfil-1.png">
+                        <!-- Avatar do usuário -->
+                        <img src="/assets/perfil-1.png"
+                            alt="Panda vermelho utilizando um casaco azul em um cenário de galáxia">
+                        <!-- Nome do perfil -->
+                        <span>João G</span>
+                    </a>
+                </li>
+
+                <!-- Perfil Irmão -->
+                <li>
+                    <a class="profile" href="catalogo/catalogo.html?name=Irm%C3%A3o&avatar=/assets/perfil-2.png">
+                        <!-- Avatar do usuário -->
+                        <img src="/assets/perfil-2.png"
+                            alt="Uma imagem de um boné de cor azul fechado, com a palavra 'ALURA' bordada em relevo na cor branca na parte frontal.">
+                        <!-- Nome do perfil -->
+                        <span>Irmão</span>
+                    </a>
+                </li>
+
+                <!-- Perfil Mãe -->
+                <li>
+                    <a class="profile" href="catalogo/catalogo.html?name=M%C3%A3e&avatar=/assets/perfil-1.png">
+                        <!-- Avatar do usuário -->
+                        <img src="/assets/perfil-1.png"
+                            alt="Panda vermelho utilizando um casaco azul em um cenário de galáxia">
+                        <!-- Nome do perfil -->
+                        <span>Mãe</span>
+                    </a>
+                </li>
+
+                <!-- Perfil Pai -->
+                <li>
+                    <a class="profile" href="catalogo/catalogo.html?name=Pai&avatar=/assets/perfil-2.png">
+                        <!-- Avatar do usuário -->
+                        <img src="/assets/perfil-2.png"
+                            alt="Uma imagem de um boné de cor azul fechado, com a palavra 'ALURA' bordada em relevo na cor branca na parte frontal.">
+                        <!-- Nome do perfil -->
+                        <span>Pai</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
